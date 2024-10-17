@@ -1,16 +1,10 @@
 import "../../index.css"
 import React, {useState} from 'react'
 
-function BurgerButton() {
-    const [toggleBurger, setToggleBurger] = useState(false);
-
-    const handleClick= () => {
-        setToggleBurger(!toggleBurger);
-    }
-
+function BurgerButton({ toggleBurger, onClick}) {
     return (
         <>
-            <div onClick={handleClick} className="flex flex-col items-center w-20 mt-5">
+            <div onClick={onClick} className="flex flex-col items-center w-20 mt-5">
                 <div id="top-burger"></div>
                 <div id="middle-burger"></div>
                 <div id="bottom-burger"></div>
