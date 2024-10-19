@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import BurgerButton from "./BurgerButton"
+import MobileMenu from './MobileMenu';
 
 
 function Navbar() {
@@ -13,6 +14,9 @@ function Navbar() {
     return (
         <>
             <BurgerButton toggleBurger={toggleBurger} onClick={handleClick}></BurgerButton>
+
+            {toggleBurger && <MobileMenu></MobileMenu>}
+            
         </>
     )
 
