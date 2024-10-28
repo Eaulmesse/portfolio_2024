@@ -9,21 +9,25 @@ import About from './components/about/About'
 import Experiences from './components/experiences/Experiences'
 import Contact from './components/contact/Contact'
 
-function App() {
 
+function App() {
   return (
-    <>
+    <div>
       <Router>
-            <Navbar />
+        <Navbar />
+          <div className="pt-10">
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/experiences" element={<Experiences />} />
-                <Route path="/contact" element={<Contact />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/experiences" element={<Experiences />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
-        </Router>
-    </>
-  )
+          </div>
+      </Router>
+    </div>
+  );
 }
 
-export default App
+
+
+export default App;

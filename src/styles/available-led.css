@@ -1,0 +1,20 @@
+.available-led {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    animation: pulse 2s infinite ease-out; 
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(18, 61, 5, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(0, 255, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
+    }
+}
