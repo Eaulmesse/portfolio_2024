@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(135deg, #10151a, #253544, #1c2833, #0d1414); /* Dégradé sombre */
   position: relative;
-  overflow: hidden;
+  
 }
 
 body::before {
@@ -44,7 +44,6 @@ body::after {
 .content-wrapper {
   position: relative; /* Pour que le z-index s'applique */
   z-index: 2; /* Appliqué à tout ce qui est à l'intérieur */
-  text-align: center; /* Centrer le texte */
 }
 
 /* body {
