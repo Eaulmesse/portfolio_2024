@@ -14,7 +14,7 @@ const ButtonSymfony = ({ isActive, onClick }) => {
             onClick={onClick}
         >
             Symfony
-            <FontAwesomeIcon className='ml-2' icon={faSymfony} />
+            <FontAwesomeIcon icon={faSymfony} />
         </button>
     );
 };
