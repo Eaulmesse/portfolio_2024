@@ -39,8 +39,9 @@ function DynamicBackground({ children }) {
         gradientBackground = 'linear-gradient(135deg, #10151a, #253544, #1c2833, #0d1414)'; // Couleur du fond pour Home
         break;
       case '/roadmap':
-        gradientBackground = 'linear-gradient(135deg, #d0d0d0, #d0d0d0, #d0d0d0, #d0d0d0)'; 
+        // gradientBackground = 'linear-gradient(135deg, #d0d0d0, #d0d0d0, #d0d0d0, #d0d0d0)'; 
         // gradientBackground = 'linear-gradient(135deg, #8b0000, #a10f2b, #5d0000, #7a0000)';
+        gradientBackground = 'linear-gradient(135deg, #10151a, #253544, #1c2833, #0d1414)';
         break;
       case '/experiences':
         gradientBackground = 'linear-gradient(135deg, #1b1d1f, #2c3035, #3a4048, #444f57)'; // Couleur pour Experiences

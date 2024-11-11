@@ -32,7 +32,7 @@ const DisplayedTechnologie = () => {
 
     return (
         <div className="content-wrapper flex flex-col items-center sm:items-start mt-52 sm:mt-0">
-            <h1 className="staatliches text-[200px] lg:text-[300px] tracking-tighter text-green-500 rotate-90 sm:rotate-0 leading-none drop-shadow-lg">
+            <h1 className="abril-fatface underline text-[150px] lg:text-[200px] tracking-tighter text-gray-200 rotate-90 sm:rotate-0 leading-none drop-shadow-lg">
                 {displayedText}
             </h1>
         </div>

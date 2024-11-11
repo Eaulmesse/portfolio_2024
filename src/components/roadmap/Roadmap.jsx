@@ -27,9 +27,9 @@ const Roadmap = () => {
 
                 <div className='lg:flex lg:mt-10'>
                     <div className='w-5/6 m-auto sm:m-0  space-y-3 flex flex-col sm:space-y-5 '>
-                        <div className='flex w-full space-x-2 m-auto sm:m-0 text-green-500'>
-                            <h2 className='text-3xl sm:text-6xl staatliches drop-shadow-sm tracking-tighter'>My skills</h2>
-                            <FontAwesomeIcon className='text-3xl sm:text-6xl ' icon={faArrowTrendUp}></FontAwesomeIcon>
+                        <div className='flex w-full space-x-2 m-auto sm:m-0 text-gray-200 bg-gray-800 w-fit p-2 rounded-lg drop-shadow-lg'>
+                            <h2 className='text-3xl  be-vietnam-pro-medium drop-shadow-sm tracking-tighter'>My skills</h2>
+                            <FontAwesomeIcon className='text-3xl' icon={faArrowTrendUp}></FontAwesomeIcon>
                         </div> 
                         
                         <div className='flex flex-col items-center sm:flex-row sm:flex-wrap justify-center sm:justify-start '>
