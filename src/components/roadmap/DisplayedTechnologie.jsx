@@ -31,8 +31,8 @@ const DisplayedTechnologie = () => {
     }, [displayedText, isDeleting, techIndex]);
 
     return (
-        <div className="content-wrapper flex flex-col items-center md:items-start mt-52 md:mt-0">
-            <h1 className="staatliches text-[200px] lg:text-[300px] tracking-tighter text-green-500 rotate-90 md:rotate-0 leading-none drop-shadow-lg">
+        <div className="content-wrapper flex flex-col items-center sm:items-start mt-52 sm:mt-0">
+            <h1 className="staatliches text-[200px] lg:text-[300px] tracking-tighter text-green-500 rotate-90 sm:rotate-0 leading-none drop-shadow-lg">
                 {displayedText}
             </h1>
         </div>

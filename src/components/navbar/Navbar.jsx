@@ -13,12 +13,12 @@ function Navbar() {
     }
 
     return (
-        <div className='content-wrapper '>
-            <div className='md:hidden'>
+        <div className='content-wrapper'>
+            <div className='sm:hidden'>
                 <BurgerButton toggleBurger={toggleBurger} onClick={handleClick}></BurgerButton>
             </div>
 
-            <div className='hidden md:flex'>
+            <div className='hidden sm:flex'>
                 <NavLinks></NavLinks>
             </div>
             

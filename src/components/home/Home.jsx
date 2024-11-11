@@ -8,9 +8,9 @@ import FreelanceText from './FreelanceText';
 const Home = () => {
     return (
         <div className="content-wrapper lg:flex mb-12 m-auto">
-            <div className="mt-10 md:mt-0 h-full relative text-center md:text-left">
+            <div className="mt-10 sm:mt-0 h-full relative text-center sm:text-left">
                 <Title />
-                <div className="flex justify-center mt-5 md:justify-between relative">
+                <div className="flex justify-center mt-5 sm:justify-between relative">
                     <Banner />
                     <PictureArea />
                 </div>
