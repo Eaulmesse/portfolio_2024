@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const OfferCard = ({ title, description, icon }) => {
     return (
-        <div className="w-full mr-5 min-h-60 rounded-lg bg-gray-800 drop-shadow-lg mt-2">
+        // <div className="w-full mr-5 min-h-60 rounded-lg bg-gray-800 drop-shadow-lg mt-2">
+        <div className="w-full mr-5 min-h-60">
             <div className="w-5/6 m-auto rounded-full text-gray-200 w-12 h-12 flex items-center mt-5">
                 {icon}
             </div>

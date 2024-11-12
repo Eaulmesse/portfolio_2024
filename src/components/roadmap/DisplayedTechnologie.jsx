@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const DisplayedTechnologie = () => {
 
-    const technologies = ['React', 'Symfony','Figma', 'Github', 'Docker',];
+    const technologies = ['React', 'Symfony','Figma', 'Github', 'Docker','Javascript', 'PHP'];
     const [displayedText, setDisplayedText] = useState('');
     const [techIndex, setTechIndex] = useState(0); // Indice pour parcourir le tableau des technologies
     const [isDeleting, setIsDeleting] = useState(false);
