@@ -4,7 +4,7 @@ import AvailableLed from './AvailableLed';
 const ContactButton = () => {
     return (
         <>  
-            <button className='w-32 flex items-center be-vietnam-pro-regular justify-evenly text-white border-2 rounded-lg '>
+            <button className='w-32 h-8 flex items-center be-vietnam-pro-regular justify-evenly text-white border-2 rounded-lg '>
                 <p>Disponible</p>
                 <AvailableLed></AvailableLed>
             </button>
