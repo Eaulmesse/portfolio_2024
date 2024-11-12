@@ -211,6 +211,11 @@ body::after {
   font-style: normal;
 }
 
-/* Contact Button */
+/* Gradient */
+
+.card-gradient {
+  background: linear-gradient(135deg, #10151a, #1c2833);
+}
+
 
 
