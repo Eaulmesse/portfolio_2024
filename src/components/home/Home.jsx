@@ -28,7 +28,6 @@ const Home = () => {
                 </div>
                 <div className='w-full lg:w-5/6 mt-10 flex justify-end'>
                     <Network />
-                    {/* <RoadmapButton /> */}
                 </div>
             </div>
 

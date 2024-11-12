@@ -44,7 +44,7 @@ body::after {
 
 .content-wrapper {
   position: relative; /* Pour que le z-index s'applique */
-  z-index: 2; /* Appliqué à tout ce qui est à l'intérieur */
+   /* Appliqué à tout ce qui est à l'intérieur */
 }
 
 /* body {
