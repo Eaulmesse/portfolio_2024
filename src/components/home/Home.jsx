@@ -4,6 +4,7 @@ import Banner from './Banner';
 import PictureArea from '../misc/PictureArea';
 import HomeText from './HomeText';
 import FreelanceText from './FreelanceText';
+import Network from './Network';
 
 const Home = () => {
     return (
@@ -16,14 +17,24 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='z-50 w-5/6 m-auto'>
-                <div className='w-5/6 m-auto mt-10  bg-gray-800 bg-opacity-60 rounded-lg p-5'>
+            
+            <div className='z-50 w-5/6 flex flex-col items-center mt-10 lg:mt-0 lg:items-end m-auto'>
+                <div className='w-full lg:w-5/6 bg-gray-800 bg-opacity-60 rounded-lg p-5 drop-shadow-lg'>
                     <HomeText />
                 </div>
-                <div className='w-5/6 m-auto mt-10 bg-gray-800 bg-opacity-80 rounded-lg p-5'>
+                <div className='w-full lg:w-5/6  mt-10 bg-gray-800 bg-opacity-80 rounded-lg p-5 drop-shadow-lg'>
                     <FreelanceText />
                 </div>
+
+                <div className='w-full lg:w-5/6 mt-10'>
+                    <Network></Network>
+                </div>
             </div>
+
+                
+                
+            
+           
             
         </div>
     );
