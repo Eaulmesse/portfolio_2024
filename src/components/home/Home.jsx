@@ -3,39 +3,34 @@ import Title from '../misc/Title';
 import Banner from './Banner';
 import PictureArea from '../misc/PictureArea';
 import HomeText from './HomeText';
-import FreelanceText from './FreelanceText';
+
 import Network from './Network';
 import RoadmapButton from './RoadmapButton';
+import FreelanceText from './FreelanceText';
 
 const Home = () => {
     return (
-        <div className="content-wrapper xl:flex mb-12 m-auto">
-            <div className="mt-10 sm:mt-0 h-full relative text-center sm:text-left">
+        <div >
+            <div className="relative w-5/6 md:w-3/4 lg:w-full m-auto mt-10 sm:mt-0">
                 <Title />
-                <div className="flex justify-center mt-5 sm:justify-between relative">
-                    <Banner />
+                <div className='lg:flex w-full mt-5  space-y-5 lg:space-x-5 lg:space-y-0 z-40'>
                     <PictureArea />
+                    <div>
+                        <div className='md:flex space-y-5 md:space-y-0 md:space-x-5'>
+                            <HomeText />
+                            <RoadmapButton />
+                        </div>
+
+                        
+
+                    </div>
                 </div>
             </div>
 
-            
-            <div className='w-5/6 lg:w-full flex flex-col xl:items-end m-auto mt-10 xl:mt-0 '>
-                <div className='w-full lg:w-5/6 card-gradient bg-opacity-60 rounded-lg p-5 drop-shadow-lg lg:self-end '>
-                    <HomeText />
-                </div>
-                <div className='w-full lg:w-5/6 mt-10 card-gradient bg-opacity-80 rounded-lg p-5 drop-shadow-lg lg:self-start xl:self-end'>
-                    <FreelanceText />
-                </div>
-                <div className='w-full lg:w-5/6 mt-10 flex justify-end'>
-                    <Network />
-                </div>
-            </div>
+            {/* <div className='content-wrapper w-5/6 m-auto mt-10 xl:mt-0 z-50'>
+                <FreelanceText/>
+            </div> */}
 
-                
-                
-            
-           
-            
         </div>
     );
 };

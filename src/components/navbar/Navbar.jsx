@@ -12,7 +12,7 @@ function Navbar() {
     }
 
     return (
-        <div className='flex items-center content-wrapper '>
+        <div className='flex items-center content-wrapper'>
             <div className='w-full relative'>
                 
                 <div className={`md:hidden transform transition-transform duration-300 absolute w-full z-50 ${toggleBurger ? 'translate-y-0' : '-translate-y-full'}`}>

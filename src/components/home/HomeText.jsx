@@ -1,15 +1,29 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ContactButton from '../misc/ContactButton';
+import CvButton from './CvButton';
+
+
+
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
 const HomeText = () => {
     return (
-        <>  
-            <h1 className='be-vietnam-pro-regular text-white text-xl md:text-5xl mb-2'>About me.</h1>
-            <ContactButton></ContactButton>
+        <div className='w-full lg:w-2/3 min-h-full bg-gray-800 p-5 rounded-lg drop-shadow-lg flex flex-col justify-between'>  
+            
+            <div className='space-y-3'>
+                <p className='be-vietnam-pro-regular text-gray-100 text-xl'>En savoir plus sur moi.</p>
+                <p className='be-vietnam-pro-regular text-gray-300'>
+                    Je m'appelle Théo, j'ai 22 ans et je sors de 3 ans d'études de développement informatique axé web. 
+                    
+                </p>
+            </div>
 
-            <p className='be-vietnam-pro-regular text-white text-lg mt-5 md:text-xl'>I am a freelance developer based in Paris, France. I have been working in the tech industry for over 10 years. I have a strong background in web development and I am always looking for new challenges. I am currently available for new projects. Feel free to contact me if you have any questions or if you would like to work with me.</p>
-        </>
+            <CvButton/>
+            
+        </div>
     );
 };
 

@@ -1,14 +1,19 @@
 import React from 'react';
-import ContactButton from '../misc/ContactButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const FreelanceText = () => {
     return (
-        <>  
-            <h1 className='be-vietnam-pro-regular text-white text-xl md:text-5xl'>Why freelancing ?</h1>
+        <div className='p-5'>
+            <h1 className='be-vietnam-pro-regular text-gray-100 text-3xl'>Pourquoi je suis freelance.</h1>
+            <p className='be-vietnam-pro-regular text-gray-300 mt-5 text-justify break-all sm:break-normal'>Je suis quelqu'un d'indépendant et d'entreprenant qui cherche à ne dépendre que de soi, produire et apprendre par lui-même avec la liberté d'un freelance. Être freelance me permet de choisir les projets qui me passionnent vraiment, de travailler à mon propre rythme et de constamment relever de nouveaux défis. J'apprécie la diversité des missions et la possibilité de collaborer avec des clients de différents horizons. Cette autonomie me pousse à me dépasser et à toujours chercher à améliorer mes compétences.</p>
 
-            <p className='be-vietnam-pro-regular text-white text-lg mt-5 md:text-xl'>I am a freelance developer based in Paris, France. I have been working in the tech industry for over 10 years. I have a strong background in web development and I am always looking for new challenges. I am currently available for new projects. Feel free to contact me if you have any questions or if you would like to work with me.</p>
-        </>
+            <a href='https://www.malt.fr/profile/theoguerin' target='blank' className='flex items-center text-gray-300  mt-5'>
+                <p className='be-vietnam-pro-regular text-gray-200 text-xl'>Mon profil Malt.</p>
+                <FontAwesomeIcon className='text-xl text-gray-200 ml-2' icon={ faArrowRight }/>
+            </a>
+        </div>
     );
 };
 
